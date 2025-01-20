@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://c.pxhere.com/photos/36/36/green_growth_concept_plant_effect_background_bokeh_photography-1341544.jpg!d');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background: rgba(45, 106, 79, 0.7);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #2d6a4f;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.styled-text {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2d6a4f;
+}
+
+button {
+    background-color: #2d6a4f;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1f4c36;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-images img {
+    width: 30%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-images img:hover {
+    transform: scale(1.05);
+}
+
+.testimonial {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #2d6a4f;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#ctaSection {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#ctaSection p {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#aboutUs img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
